@@ -23,14 +23,14 @@ const Header = () => {
         <div className="searchBar">
           <div className="all-opt">
             <div className="all">
-              <a href="">All
+              <a href="">Used
                <img src={down} alt=""/></a>
             </div>
             <div className="search-logo">
               <img src={search} alt="" />
             </div>
           </div>
-          <input type="text" placeholder="Search or Ask a Question" />
+          <input type="text" placeholder="Search Cars or Brands eg. swift, or Maruti" />
         </div>
         <div className="side-head">
           <div className="l-o">

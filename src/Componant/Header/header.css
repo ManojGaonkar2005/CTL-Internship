@@ -62,6 +62,12 @@
     padding-top: 3px;
     padding-left: 20px;
 }
+.down-button img{
+    position: absolute;
+    width: 10px;
+    padding-top: 3px;
+    padding-left: 20px;
+}
 .all{
     display: flex;
     align-items: center;
@@ -142,6 +148,7 @@
     box-shadow: 0 3px 6px 0 rgba(36, 39, 44, .1);
     display: flex;
     justify-content: center;
+    margin: 0px 10px 0px 10px;
 }
 .navbar{
     display: flex;
