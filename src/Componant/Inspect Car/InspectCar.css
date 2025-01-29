@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: gray;
+}
+
+/* Text Styles */
+p {
+    color: gray;
+    font-size: 18px;
+}
+
+h1, h2, h3 {
+    color: black;
+}
+
+/* Outer Container */
+.outer {
+    display: flex;
+    width: 100%;
+}
+
+/* Left Side (Car Image & Slide Buttons) */
+.inner1 {
+    flex: 1;
+    margin: 20px 30px 20px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.car-image {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px #ccc;
+}
+
+.prev-btn, .next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.prev-btn {
+    left: 10px;
+}
+
+.next-btn {
+    right: 10px;
+}
+
+/* Right Side (Car Details) */
+.inner2 {
+    flex: 1;
+    margin: 20px 80px 20px 30px;
+    box-shadow: 2px 2px 2px 2px #e2e1e1;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Car Details Section */
+.inner2-1 {
+    flex: 1;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Title, Certification & Heart Icon */
+.in1 {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.in1 button {
+    margin-left: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: lightgrey;
+    padding: 5px;
+}
+
+.in1 img {
+    width: 60px;
+    height: 60px;
+}
+
+/* Car Specifications */
+.in2 {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.in2 p {
+    margin-right: 10px;
+}
+
+.in2 h1 {
+    margin-right: 10px;
+    margin-bottom: 19px;
+}
+
+/* Car Pricing & EMI */
+.in3 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.in3 h2 {
+    margin-bottom: 15px;
+}
+
+.in3 a {
+    color: gray;
+}
+
+/* Location, Compare & Seller Details */
+.in4 {
+    flex: 1;
+    border: none;
+    border-top: 1px dashed black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.in4-1 {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.in4-1 img {
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+.in4-1 p {
+    margin-right: 235px;
+}
+
+.in4-1 input {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.in4 button {
+    margin: 20px 0px 0px 20px;
+    width: 90%;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    font-size: larger;
+    font-weight: bolder;
+    background-color: orangered;
+    color: aliceblue;
+}
+
+/* Trending Car Alert */
+.inner2-2 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    background-color: lightgray;
+    height: 50px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 10px;
+}
+
+.inner2-2 h3 {
+    color: black;
+}
