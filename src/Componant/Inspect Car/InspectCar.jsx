@@ -12,8 +12,12 @@ import Oheart from "./Images/Like-orange.png";
 
 const carImages = [
   "https://images10.gaadi.com/usedcar_image/4320910/original/10e495689e38c63ed57b8bc8a0a08fee.JPG?imwidth=640",
+  "https://images10.gaadi.com/usedcar_image/4320910/original/2576637a8940cdad3c87c57f64dbfe32.JPG?imwidth=640",
+  "https://images10.gaadi.com/usedcar_image/4320910/original/7e22d2a745f023d31cf1c79ecbd81924.JPG?imwidth=640",
   "https://images10.gaadi.com/usedcar_image/4320910/original/1d0e7a56f0ee267546ee430089c711fa.JPG?imwidth=640",
   "https://images10.gaadi.com/usedcar_image/4320910/original/93a7ae7062fdd0b1618bc5d5feca6423.JPG?imwidth=640",
+  "https://images10.gaadi.com/usedcar_image/4320910/original/99219699e6edf84def34785989357399.JPG?imwidth=640",
+  "https://images10.gaadi.com/usedcar_image/4320910/original/ef9fbdad4594456520593e9eb7809fd8.JPG?imwidth=640",
   "https://images10.gaadi.com/usedcar_image/4320910/original/dbe0deb27e9e4024c583e79a233e5637.JPG?imwidth=640",
 ];
 
