@@ -3,7 +3,7 @@ body {
 }
 
 .Container {
-    width: 1300px;
+    width: 1149px;
     display: flex;
     flex-direction: row;
 }
@@ -47,8 +47,6 @@ body {
     padding: 10px;
 }
 
-.Car-img-Container .car-image {}
-
 .Car-img-Container .car-image img {
     border-radius: 15px;
 }
@@ -58,13 +56,12 @@ body {
     margin: 327px 0px 0px 10px;
 }
 
-.Car-img-Container .bottom-icon img {}
 
 .Car-img-Container .Car-menu-img {
     position: absolute;
     display: flex;
     align-items: center;
-    margin:325px 0px 0px 520px ;
+    margin: 325px 0px 0px 520px;
     background-color: #fff;
     padding: 8px 15px 6px 15px;
     font-weight: bold;
@@ -101,7 +98,7 @@ body {
 }
 
 .Car-details-top {
-    padding:25px 30px 10px 30px;
+    padding: 25px 30px 10px 30px;
 
 }
 
@@ -110,12 +107,16 @@ body {
     flex: 1;
     flex-direction: row;
 }
-.heading h2{
+
+.heading .head {
     display: flex;
-    flex: 3;
+    flex: 2.5;
     margin: 0px;
+    font-size: 21.5px;
+    color: rgb(0, 0, 0);
 }
-.side-head{
+
+.side-head {
     display: flex;
     flex: 1;
     justify-content: space-between;
@@ -124,9 +125,10 @@ body {
 .certified {
     font-size: 12px;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
 }
-.certified span{
+
+.certified span {
     background-color: rgba(128, 128, 128, 0.163);
     padding: 5px;
     border-radius: 25px;
@@ -136,104 +138,119 @@ body {
 
 .Like-Icon {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .Like-Icon img {
     width: 19px;
 }
+
 .heart-icon {
     cursor: pointer;
     transition: transform 0.2s ease-in-out;
-  }
-  
-  .heart-icon.favorited {
+}
+
+.heart-icon.favorited {
     scale: 1.1;
 
-  }
-  
+}
+
 .Car-run-details {
     display: flex;
     flex: 1;
 }
-.Car-run-details span{
-   font-weight: bold;
-   font-size: 20px;
-   display: flex;
+
+.Car-run-details span {
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
     margin: 5px 0px 0px 0px;
     padding: 0px 10px 0px 0px;
 }
-.Car-run-details p{
-   margin: 15px 0px 12px 0px;
-   color: rgba(0, 0, 0, 0.714);
-   font-size: 13px;
-   padding: 0px 10px 0px 0px;
+
+.Car-run-details p {
+    margin: 15px 0px 12px 0px;
+    color: rgba(0, 0, 0, 0.714);
+    font-size: 13px;
+    padding: 0px 10px 0px 0px;
 }
 
 .Car-Amount {
     display: flex;
-    flex:1;
+    flex: 1;
     flex-direction: column;
     margin: 0px;
     border-bottom: 1px dashed rgba(48, 48, 48, 0.218);
 }
-.Car-Amount h2{
+
+.Car-Amount h2 {
     margin: 0px 0px 15px 0px;
- 
+
 }
-.Car-Amount a{
+
+.Car-Amount a {
     color: black;
     margin: 0px 0px 15px 0px;
     font-size: 13px
 }
+
 .Car-details-Bottom-Container {
     display: flex;
     flex: 1;
     flex-direction: column;
 }
-.location-compare{
+
+.location-compare {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 15px 0px 0px 0px;
+    margin: 10px 0px 0px 0px;
     font-size: 12px;
 }
-.location{
+
+.location {
     color: rgba(0, 0, 0, 0.714);
     display: flex;
     align-items: center;
 }
-.location img{
+
+.location img {
     margin: 0px 3px 0px 0px;
 }
+
 .location-compare img {
     width: 15px;
 }
 
-.compare{
+.compare {
     color: rgba(0, 0, 0, 0.714);
     display: flex;
     align-items: center;
 }
-.compare input{
-    color: rgba(0, 0, 0, 0.714);
+
+.compare input {
+    accent-color: rgba(240, 72, 0, 0.968);
 }
-.seller-button{
+
+
+.seller-button {
     display: flex;
     flex: 1;
 }
-.seller-button button{
+
+.seller-button button {
     display: flex;
     flex: 1;
     align-items: center;
     justify-content: center;
-    margin: 25px 10px 15px 10px;
-    padding: 18px 0px 18px 0px;
+    margin: 15px 10px 5px 10px;
+    padding: 10px 0px 10px 0px;
     background-color: rgba(240, 72, 0, 0.968);
     font-weight: bold;
     color: #fff;
-    font-size: 20px;
-    border: none;border-radius: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
     box-shadow: 0px 0px 15px 2px rgba(76, 1, 1, 0.289);
 }
 
@@ -243,6 +260,7 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 .Car-detail-b .T-head {
     display: flex;
     align-items: center;
@@ -250,15 +268,19 @@ body {
     padding-right: 4px;
 
 }
+
 .Car-detail-b span img {
     width: 16px;
 }
+
 .Car-detail-b p {
     display: flex;
 }
-.light-text{
+
+.light-text {
     color: rgba(0, 0, 0, 0.714);
 }
+
 .social-links {
     display: flex;
     flex: 1;
@@ -267,13 +289,16 @@ body {
     align-items: center;
     padding: 35px 0px 30px 0px;
 }
-.brands{
+
+.brands {
     display: flex;
 }
-.brands a{
+
+.brands a {
     color: black;
 
 }
+
 .brands img {
     width: 20px;
     padding-right: 8px;

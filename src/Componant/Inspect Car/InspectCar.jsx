@@ -71,7 +71,7 @@ const Task = () => {
         <div className="Car-detail">
           <div className="Car-details-top">
             <div className="heading">
-              <h2>2023 Maruti Alto K10 VXI Plus</h2>
+            <div className="head"> 2023 Maruti Alto K10 VXI Plus</div>
               <div className="side-head">
                 <div className="certified">
                   <span>CERTIFIED</span>
@@ -96,8 +96,8 @@ const Task = () => {
               <p>1st Owner</p>
             </div>
             <div className="Car-Amount">
-              <h2>$5.21 Lakh</h2>
-              <a href="#">EMI starts @ $12,932 / mo</a>
+              <h2>₹5.21 Lakh</h2>
+              <a href="#">EMI starts @ ₹12,932 / mo</a>
             </div>
             <div className="Car-details-Bottom-Container">
               <div className="location-compare">
