@@ -37,7 +37,9 @@
     display: flex;
     align-items: center;
     background-color: gray;
+    cursor: pointer;
 }
+
 
 .prev-botton span img {
     width: 15px;
@@ -50,6 +52,7 @@
     display: flex;
     align-items: center;
     background-color: gray;
+    cursor: pointer;
 }
 
 .next-botton span img {
