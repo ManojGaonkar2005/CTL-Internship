@@ -19,7 +19,7 @@ import Lettuce_Stuff from "./imges/Lettuce_Stuff.png";
 const menu = () => {
   return (
     <div className="container">
-      <div className="food-heading">
+      {/* <div className="food-heading">
         <h1>Special Discount Today</h1>
         <span>
           Ends in <a href="">12:10:09</a>
@@ -251,8 +251,8 @@ const menu = () => {
               <button>Order</button>
             </div>
           </div>
-        </div>
-      </div>
+        </div> */}
+      {/* </div> */}
     </div>
   );
 };
