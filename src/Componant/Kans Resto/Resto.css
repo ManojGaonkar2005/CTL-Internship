@@ -83,8 +83,14 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 20px;
-  overflow-y: scroll;
+  overflow: auto;
 
+}
+.menu-grid::-webkit-scrollbar {
+  width: 5px;
+}
+.menu-grid::-webkit-scrollbar-thumb {
+  background-color: black;
 }
 .head-box{
   display: flex;
