@@ -1,0 +1,21 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: #fff;
+}
+.R-Container{
+    width: 1000px;
+}
+.R-Options{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 950px;
+}
+.menu-items img{
+    width: 70px;
+    height: 70px;
+    border: 0.5px solid rgba(0, 0, 0, 0.104);
+    border-radius: 15px;
+}

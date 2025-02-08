@@ -3,7 +3,7 @@ import JustDail from "./JustDail";
 
 export default{
     title:"Component/JustDail/JustDail",
-    Componant:JustDail
+    Component:JustDail
 }
 
 export const Default=()=><JustDail/>
