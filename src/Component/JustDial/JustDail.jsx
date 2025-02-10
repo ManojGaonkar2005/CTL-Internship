@@ -11,8 +11,12 @@ const JustDail = () => {
             <img src={item.image} alt="" />
             <p>{item.title}</p>
           </div>
+          
         ))}
-
+          {/* <div className="menu-items">
+            <img src={item.image} alt="" />
+            <p>{item.title}</p>
+          </div> */}
       </div>
     </div>
   );
