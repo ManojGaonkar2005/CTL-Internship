@@ -1,6 +1,6 @@
 import React from 'react';
 import "./JustDail.css";
-import { menu } from './Card';
+import { menu,last } from './Card';
 
 const JustDail = () => {
   return (
@@ -13,10 +13,13 @@ const JustDail = () => {
           </div>
           
         ))}
-          {/* <div className="menu-items">
-            <img src={item.image} alt="" />
-            <p>{item.title}</p>
-          </div> */}
+          {last.map((litem)=>(
+            <div className="menu-items">
+              <span className="Litem">
+            <img src={litem.image} alt="" /></span>
+            <p>{litem.title}</p>
+          </div>
+          ))}
       </div>
     </div>
   );

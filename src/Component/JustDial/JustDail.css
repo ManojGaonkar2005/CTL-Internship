@@ -38,4 +38,7 @@ body{
     width: 65px;
     font-size: 12px;
 }
+.Litem img{
+    border: 1px solid black;
+}
 
