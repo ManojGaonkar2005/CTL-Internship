@@ -6,6 +6,7 @@ const JustDail = () => {
   return (
     <div className="R-Container">
       <div className="R-Options">
+        <div></div>
         {menu.map((item)=>(
           <div key={item.id} className="menu-items">
             <img src={item.image} alt="" />
