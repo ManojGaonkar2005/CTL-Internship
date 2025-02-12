@@ -3,7 +3,7 @@ import PaymentSummary from "./PaymentSummaryjsx";
 import React from "react";
 
 export default{
-  title:"Application/PaymentForm",
-  Application:PaymentForm
+  title:"componants/PaymentForm",
+  componants:PaymentForm
 }
 export const Default=()=><PaymentForm/>
