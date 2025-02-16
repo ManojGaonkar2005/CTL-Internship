@@ -14,7 +14,7 @@ body {
     box-shadow: 0px 0px 10px 1px black;
 }
 
-.right-container{
+.FullF-container{
     display: flex;
     flex: 6;
     flex-direction: column;

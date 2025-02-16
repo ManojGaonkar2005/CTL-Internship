@@ -1,0 +1,448 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #ededed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.wrapper {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  width: 900px;
+  /* border: 1px solid black; */
+}
+
+.form {
+  width: 60%;
+  padding: 20px;
+  margin-top: 25px;
+  /* border-right: 1px solid #e0e0e0; */
+}
+
+.form-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.close-btn img {
+  padding: 5px;
+  height: 34px;
+  width: 34px;
+  margin-right: 10px;
+  border-radius: 100px;
+  background-color: #0059b8;
+}
+
+.logo-circle h1 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.logo-circle .lean {
+  font-weight: normal;
+}
+
+.timer {
+  display: flex;
+  align-items: center;
+}
+
+.timer-box {
+  padding: 9px 8px;
+  background-color: #0c0f1b;
+  border-radius: 4px;
+  font-weight: bold;
+  margin-right: 4px;
+  color: white;
+}
+
+.timer-divider {
+  font-size: 20px;
+  margin-right: 1px;
+}
+
+.form-body {
+  margin-top: 20px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group__col {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.A-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+
+}
+
+.description .title {
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+  width: 245px;
+}
+
+.purchase-data .title {
+  color: rgb(68, 68, 68);
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.inner-text {
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.desc {
+  font-size: 12px;
+  color: #888;
+  width: 220px;
+}
+
+.A-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+}
+
+.A-main .master-Badge {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.master-Badge input{
+  width: 200px;
+  color: rgb(168, 162, 162);
+}
+.master-Badge input::placeholder{
+  color: rgb(168, 162, 162);
+}
+input {
+  border: none;
+  outline: none;
+  width: 100%;
+  background: none;
+  padding: 5px;
+}
+
+img.leading-icon {
+  height: 24px;
+  width: 24px;
+  margin-right: 8px;
+}
+
+img.trailing-icon {
+  height: 24px;
+  width: 24px;
+  margin-left: 8px;
+}
+
+.input-group__col .dates {
+  display: flex;
+  gap: 10px;
+}
+
+.main__date {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 14px;
+  background-color: #f9f9f9;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+.B-main img{
+  width: 18px;
+}
+.B-main{
+  display: flex;
+  padding: 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 14px;
+  background-color: #f9f9f9;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+.main__date input {
+  text-align: center;
+}
+
+.devider {
+  display: flex;
+  align-items: center;
+  padding: 0 3px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.A-input-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.A-input-group .main input {
+  text-align: center;
+  font-weight: bold;
+}
+
+.AI-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.A-input-group .main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+}
+
+.input-group input[type="password"] {
+  width: 100%;
+  padding: 5px;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+.btn-submit {
+  width: 100%;
+  padding: 14px;
+  background-color: #007bff;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+  background-color: #0056b3;
+}
+
+.checkout {
+  background-color: rgba(128, 128, 128, 0.136);
+  width: 28%;
+  padding: 20px;
+}
+
+.credit-card {
+  position: absolute;
+  background-color: white;
+  color: rgb(0, 0, 0);
+  border-radius: 16px;
+  padding: 20px;
+  position: relative;
+  margin: 0px 25px 0px 25px;
+}
+
+.credit-card__head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 65px;
+}
+
+.chip {
+  height: 24px;
+  width: 24px;
+}
+
+.credit-card__body {
+  margin-bottom: 20px;
+}
+
+.holder {
+  font-size: 15px;
+  color: black;
+}
+
+.card-digits {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.hidden-digits .circle {
+  width: 8px;
+  height: 8px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.visible-digits h1 {
+  margin-left: 14px;
+  font-size: 24px;
+}
+
+.credit-card__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.credit-card__footer .expiry {
+  color: black;
+  font-size: 15px;
+}
+
+.checkout-details {
+  margin-top: 20px;
+  /* height: 400px; */
+}
+
+.purchase-data .data {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.value {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.purchase-total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.total {
+  text-align: right;
+}
+
+.t-amount h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.t-amount .amount {
+  font-size: 12px;
+  color: #888;
+}
+
+.divider {
+  height: 1px;
+  background-color: #e0e0e0;
+  margin: 20px 0;
+}
+
+.editPencil .edit img {
+  width: 12px;
+  height: 12px;
+  margin-right: 5px;
+}
+
+.edit {
+  border: none;
+  background: none;
+}
+
+.edit .btn-desc {
+  color: rgb(0, 149, 255);
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.main img {
+  width: 20px;
+  height: 20px;
+}
+
+.credit-card__head img {
+  width: 30px;
+  height: 40px;
+}
+
+.credit-card__head .wifi img {
+  width: 25px;
+  height: 22px;
+}
+
+.credit-card__footer img {
+  width: 55px;
+  height: 55px;
+}
+
+.value img {
+  width: 22px;
+  height: 22px;
+  margin-right: 10px;
+}
+
+.purchase-total img {
+  width: 22px;
+  height: 22px;
+}
+
+.t-amount {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.t-amount .amount {
+  margin-bottom: 2px;
+  font-size: 13px;
+  margin-left: 3px;
+  color: rgb(68, 68, 68);
+}
+
+.total .desc {
+  color: rgb(68, 68, 68);
+  font-size: 14px;
+}
+
+.dots {
+  display: flex;
+  gap: 6px;
+}
+
+.dot {
+  width: 6.5px;
+  height: 6px;
+  background-color: #000000;
+  border-radius: 50%;
+}

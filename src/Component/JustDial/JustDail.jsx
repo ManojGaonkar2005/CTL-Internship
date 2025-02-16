@@ -4,6 +4,7 @@ import { menu,last } from './Card';
 
 const JustDail = () => {
   return (
+    <div className="R-Full-Container">
     <div className="R-Container">
       <div className="R-Options">
         {menu.map((item)=>(
@@ -21,6 +22,7 @@ const JustDail = () => {
           </div>
           ))}
       </div>
+    </div>
     </div>
   );
 };

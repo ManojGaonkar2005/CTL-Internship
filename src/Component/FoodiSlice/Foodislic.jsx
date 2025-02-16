@@ -21,7 +21,7 @@ const Foodislic=()=>{
 return(
     <div className="container">
         
-            <div className="right-container">
+            <div className="FullF-container">
                 <div className="heading-contant">Explore Categories</div>
                 <div className="main-right-container">
                     <div className="bottom-left-conatiner">
