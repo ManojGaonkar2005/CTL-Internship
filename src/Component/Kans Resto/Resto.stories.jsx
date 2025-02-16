@@ -3,7 +3,7 @@ import React from "react";
 import Resto from "./Resto";
 
 export default{
-    title:"Componant/Restaurant/KansResto",
+    title:"Component/Kans Resto/KansResto Page",
     Component:Resto,
 }
 

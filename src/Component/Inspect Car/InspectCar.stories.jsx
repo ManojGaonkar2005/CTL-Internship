@@ -2,7 +2,7 @@ import React from "react";
 import Task from "./InspectCar";
 
 export default{
-    title:"Componant/Inspect Car/InspectCar",
+    title:"Component/Inspect Car/InspectCar Page",
     Component:Task,
 }
 
