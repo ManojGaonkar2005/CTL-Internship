@@ -4,8 +4,8 @@ import "./Wearup.css";
 
 const Wearup = () => {
   return (
-    <div className="container">
-      <div className="header"></div>
+    <div className="W-container">
+      <div className="header-w1"></div>
       <div className="main">
         <div className="left-container">
           <div className="heading">

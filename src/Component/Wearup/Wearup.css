@@ -6,13 +6,13 @@
   background-color: #f6f8fa;
 }
 
-.container {
+.W-container{
   display: flex;
   flex-direction: column;
   padding: 20px;
 }
 
-.header {
+.header-w1{
   background-color: #007bff;
   color: rgb(0, 0, 0);
   padding: 20px;
