@@ -5,8 +5,7 @@ import OrderSummary from './components/OrderSummary/OrderSummary';
 import Header from './components/Header/Header';
 import PaymentForm from './components/PaymentForm/PaymentForm';
 
-
-export const Layout=()=> {
+ const Layout=()=> {
   return (
     <div className="app">
       <div className="row1">
@@ -24,4 +23,4 @@ export const Layout=()=> {
   );
 }
 
-// export default App;
+export default Layout;
